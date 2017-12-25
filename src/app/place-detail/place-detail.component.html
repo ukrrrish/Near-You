@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="form-group" [hidden]="true">
+      <input  placeholder="search for location" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" class="form-control" #search [formControl]="searchControl">
+    </div>
+    <agm-map [latitude]="latitude" [longitude]="longitude" [scrollwheel]="false" [zoom]="zoom">
+      <agm-marker [latitude]="latitude" [longitude]="longitude" ></agm-marker>
+      <agm-marker *ngFor="let itemselecct of locationresponse" [latitude]="itemselecct.geometry.location.lat()" [longitude]="itemselecct.geometry.location.lng()" ></agm-marker>
+    </agm-map>
+    
+    <div id ="detailrow" class="row" >
+      
+        <div  id="detailelement" class="col-sm-12"  *ngFor="let itemselecct of locationresponse">
+          <h3>
+          {{itemselecct.name}}
+          </h3>
+          <h4>
+          {{itemselecct.vicinity}}
+          </h4>
+           <h5>
+            Rating:{{itemselecct.rating}} 
+          </h5>
+      </div>
+    </div>
+</div>

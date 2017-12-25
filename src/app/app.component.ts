@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+ public loadBarShow: Boolean;
   title = 'app';
+receiveMessage($event){
+this.loadBarShow=$event;
+}
+
 }

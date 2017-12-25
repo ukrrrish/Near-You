@@ -1,0 +1,17 @@
+ #iconrow{
+	   text-align: center;
+	   margin:auto;
+	   border: 3px solid #fff;  
+	  }
+	  
+	  #iconelement{
+	   border: 3px solid #fff;
+	   background:#ddd;
+       padding: 12px;
+	  }
+	  
+	  #iconelement:hover{
+	   border: 3px solid #fff;
+	   background:#ADD8E6;
+	  }
+	  

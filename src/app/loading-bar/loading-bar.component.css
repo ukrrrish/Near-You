@@ -1,0 +1,225 @@
+/* The animation code */
+
+	@keyframes blue_bar {
+		0% {} 25% {
+			border: 4px solid #4285F4;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 0px;
+			height: 0px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		50% {
+			border: 4px solid #4285F4;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 0px;
+			height: 0px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		75% {
+			border: 4px solid #4285F4;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 0px;
+			height: 0px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		100% {
+			border: 4px solid #4285F4;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 0px;
+			height: 0px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+	}
+	#blue_circle {
+		animation-name: blue_bar;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		 animation-direction: alternate;
+	}
+	@keyframes green_bar {
+		0% {} 25% {} 50% {
+			border: 4px solid #0F9058;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 13px;
+			height: 13px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		75% {
+			border: 4px solid #0F9058;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 13px;
+			height: 13px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		100% {
+			border: 4px solid #0F9058;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 13px;
+			height: 13px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+	}
+	#green_circle {
+		animation-name: green_bar;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	@keyframes yellow_bar {
+		0% {} 25% {} 50% {} 75% {
+			border: 4px solid #f4b400;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 26px;
+			height: 26px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+		100% {
+			border: 4px solid #f4b400;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 26px;
+			height: 26px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+	}
+	#yellow_circle {
+		animation-name: yellow_bar;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+	}
+	@keyframes red_bar {
+		0% {} 25% {} 50% {} 75% {} 100% {
+			border: 4px solid #DB4437;
+			z-index: 1;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 39px;
+			height: 39px;
+			-moz-border-radius: 100%;
+			-webkit-border-radius: 100%;
+			border-radius: 100%;
+			background: transparent;
+			box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+			-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 4px rgba(0, 0, 0, .5);
+		}
+	}
+	#red_circle {
+		animation-name: red_bar;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		 animation-direction: alternate;
+	}
+    
+#loadbarbody{
+  z-index: 1;
+  position: fixed;		 
+  width: 100%;
+  height: 100%;
+}
+
+#loadingtext{
+	
+			
+			position: fixed;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 39px;
+			height: 39px;			
+			background: transparent;
+			
+			
+}

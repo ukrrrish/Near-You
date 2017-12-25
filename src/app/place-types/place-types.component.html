@@ -1,0 +1,16 @@
+
+<app-display-places></app-display-places>
+<div id="temp" class="container">
+         <span></span>
+         <div id ="iconrow" class="row" >
+            <div  id="iconelement" class="col-xs-6 col-md-4" routerLink="/placedetails" *ngFor="let itemselecct of placetypesdisplay;let ind=index" (click)="setItemType(ind)" >
+               <h3>
+               {{itemselecct.placetype}}
+               </h3>
+               <i [ngClass]="itemselecct.fontclass" aria-hidden="true"></i>
+            </div>
+         </div>
+      </div>
+     
+      <div>
+  </div>
